@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>YOGOFRUITS</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: lch(70.36% 36.57 273.46);
+            color: #333;
+        }
+
+        header {
+            background-color: lab(81.36% -2.72 -27.47);
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        nav {
+            background-color: #ff4081;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        .inicio {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .inicio h2 {
+            color: hsl(340, 41%, 70%);
+            font-size: 35px;
+        }
+
+        .productos {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .producto {
+            background-color: #997777;
+            width: 250px;
+            padding: 25px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .producto h3 {
+            color: #ff4081;
+        }
+
+        .precio {
+            font-size: 22px;
+            font-weight: bold;
+            color: #e91e63;
+        }
+
+        .boton {
+            display: inline-block;
+            background-color: #3a2614;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .boton:hover {
+            background-color: #c4b8dd;
+        }
+
+        footer {
+            background-color: hsl(192, 50%, 79%);
+            color: hwb(0 3% 97%);
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🍓 YOGOFRUITS 🍓</h1>
+        <p>¡El sabor que alegra tu día!</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="inicio" id="inicio">
+        <h2>Bienvenidos a YOGOFRUITS</h2>
+
+        <p>
+            Disfruta deliciosos yogures acompañados de frutas frescas
+            y los mejores ingredientes.
+        </p>
+
+        <p>
+            🍓  🥭 🔵
+        </p>
+    </section>
+
+    <section id="productos">
+
+        <h2 style="text-align:center; color:hsl(0, 0%, 0%);">
+            Nuestros productos
+        </h2>
+
+        <div class="productos">
+
+            <div class="producto">
+                <h3>🍓 Yogurt de Fresa</h3>
+                <p>Delicioso yogurt con fresas frescas.</p>
+                <p class="precio">$8.000</p>
+                <a href="#contacto" class="boton">Pedir</a>
+            </div>
+
+            <div class="producto">
+                <h3>🔵 Arándanos</h3>
+</h3>
+                <p>Yogurt cremoso con delicioso mango.</p>
+                <p class="precio">$8.000</p>
+                <a href="#contacto" class="boton">Pedir</a>
+            </div>
+
+            <div class="producto">
+                <h3> mango</h3>
+                <p>Fresa, arandano, mango mucho sabor.</p>
+                <p class="precio">$10.000</p>
+                <a href="#contacto" class="boton">Pedir</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="inicio" id="contacto">
+
+        <h2>📲 Haz tu pedido</h2>
+
+        <p>¿Quieres probar YOGOFRUITS?</p>
+
+        <p>Escríbenos y realiza tu pedido.</p>
+
+        <a href="https://wa.me/573133121081" class="boton">
+            Pedir por WhatsApp
+        </a>
+
+    </section>
+
+    <footer>
+        <p>© 2026 YOGOFRUITS</p>
+        <p>Hecho con ❤️ y mucho sabor</p>
+    </footer>
+
+</body>
+
+</html>
+<div class="producto">
+    <h3>🍓 Yogurt de Fresa</h3>
+    <p>Delicioso yogurt con fresas frescas.</p>
+    <p class="precio">$8.000</p>
+    <a href="#contacto" class="boton">Pedir</a>
+</div>
+<div class="producto">
+    <img src="imagenes/fresa.jpg" alt="Yogurt de fresa">
+
+    <h3>🍓 Yogurt de Fresa</h3>
+
+    <p>Delicioso yogurt con fresas frescas.</p>
+
+    <p class="precio">$8.000</p>
+
+    <a href="#contacto" class="boton">Pedir</a>
+</div>
+<div class="producto">
+    <img src="imagenes/mango.jpg" alt="Yogurt de mango">
+
+    <h3> Yogurt de mango</h3>
+
+    <p>Yogurt cremoso con delicioso banano.</p>
+
+    <p class="precio">$8.000</p>
+
+    <a href="#contacto" class="boton">Pedir</a>
+</div>
+
+
+<div class="producto">
+    <img src="arandanos.jpg" alt="Yogurt mixto">
+
+    <h3> Yogurt de arando /h3>
+
+    <p>Fresa, arandano, mango y mucho sabor.</p>
+
+    <p class="precio">$10.000</p>
+
+    <a href="#contacto" class="boton">Pedir</a>
+</div>
+<section class="inicio" id="toppings">
+
+    <h2>🥣 Arma tu Yogurt</h2>
+
+    <p>Elige tus frutas y toppings favoritos:</p>
+
+    <div class="productos">
+
+        <div class="producto">
+            <h3>🍓 Frutas</h3>
+            <p>Fresa</p>
+            <p>mango</p>
+            <p>Arándanos</p>
+        </div>
+
+        <div class="producto">
+            <h3>🍫 Toppings</h3>
+            <p>Chocolate</p>
+            <p>Granola</p>
+            <p>Galleta</p>
+            <p>Chispas de chocolate</p>
+            <p>Miel</p>
+        </div>
+
+    </div>
+
+</section>
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#productos">Productos</a>
+    <a href="#toppings">Arma tu Yogurt</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+<section class="galeria" id="galeria">
+
+    <h2>📸 Conoce YOGOFRUITS</h2>
+
+    <div class="fotos">
+
+        <img src="imagenes/fresa.jpg" alt="Yogurt de fresa">
+
+        <img src="imagenes/mango.jpg" alt="Yogurt de mango">
+
+        <img src="imagenes/arandano.jpg" alt="Yogurt arandano">
+
+    </div>
+
+</section>
+.galeria {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.galeria h2 {
+    color: #ff4081;
+    font-size: 35px;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.fotos img {
+    width: 280px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+
+.fotos img:hover {
+    transform: scale(1.05);
+}
