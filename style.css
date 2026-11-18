@@ -7,7 +7,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #fff8f0;
-    color: #4a2c20;
+    color: #bd9281;
     line-height: 1.6;
 }
 
@@ -33,7 +33,7 @@ header h1 {
 }
 
 header p {
-    color: #5c3742;
+    color: #d1b47d;
     font-size: 16px;
 }
 
@@ -73,7 +73,7 @@ section {
 }
 
 section h2 {
-    color: #7a284b;
+    color: #f1d4e1;
     font-size: 28px;
     margin-bottom: 15px;
 }
