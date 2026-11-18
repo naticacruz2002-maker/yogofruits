@@ -30,7 +30,7 @@ header {
 
 header h1 {
     font-size: 32px;
-    color: #7a284b;
+    color: #301a0e;
     margin-bottom: 5px;
 }
 
@@ -42,7 +42,7 @@ header p {
 /* ===== MENÚ ===== */
 
 nav {
-    background: #7a284b;
+    background: #1f1304;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@ nav a {
 
 nav a:hover {
     background: #f8b4c8;
-    color: #7a284b;
+    color: #c0849e;
 }
 
 /* ===== SECCIONES ===== */
